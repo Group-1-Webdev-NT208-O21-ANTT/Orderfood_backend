@@ -1,7 +1,7 @@
 {
-  "name": "orderfood_backend",
+  "name": "ecommerce-backend",
   "version": "1.0.0",
-  "description": "ecommerce_backend",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -16,6 +16,7 @@
     "dotenv": "^16.4.5",
     "express": "^4.19.1",
     "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.5.0",
     "mongoose": "^8.2.3",
     "nodemon": "^3.1.0"
   }
