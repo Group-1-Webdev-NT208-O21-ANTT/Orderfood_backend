@@ -11,7 +11,7 @@ const port = process.env.PORT || 3001
 app.use(bodyParser.json())
 routes(app)
 
-mongoose.connect(`${process.env.MONGO_DB}`)
+mongoose.connect('mongodb+srv://nhom1:admin@cluster0.jvaahr0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
 .then(() => {
     console.log('Connect DB success!')
 })
