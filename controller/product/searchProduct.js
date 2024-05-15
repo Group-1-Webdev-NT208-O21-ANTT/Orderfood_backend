@@ -2,7 +2,7 @@ const productModel = require("../../models/productModel")
 
 const searchProduct = async(req,res)=>{
     try{
-        const query = req.query.q 
+        const query = req.query.q
 
         const regex = new RegExp(query,'i','g')
 
